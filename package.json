@@ -1,0 +1,20 @@
+{
+  "name": "week-1-code-challenge",
+  "version": "1.0.0",
+  "description": "code-challenge-wk-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobMuchori/week-1-code-challenge.git"
+  },
+  "author": "Jacob Muchori Kinyua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobMuchori/week-1-code-challenge/issues"
+  },
+  "homepage": "https://github.com/JacobMuchori/week-1-code-challenge#readme"
+}
