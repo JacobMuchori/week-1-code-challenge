@@ -6,6 +6,24 @@ This code challenge contains:
  2.A function that prints a certain message depending on the input speed of a car.
  3.A function that calculates an individuals net salary once the basic salary and benefits are input then added to get the gross salary, then the deductions are calculated and subtracted from the gross salary to get the net salary.It also displays the value of PAYE, NHIF and NSSF deductions.
 
+# Installation
+Open the terminal on your computer.
+Clone the repo from github using:
+  git clone https://github.com/JacobMuchori/week-1-code-challenge
+
+Change directory into the repo folder:
+  cd-week-1-code-challenge
+
+Open it in ``Visual Studio Code``:
+  code .
+
+# Running the application
+To run the application:
+
+- Run the application
+  node index.js
+
+
 # Project set up
   # Student Grade Generator(Toy Problem)
 The first part of the code challenge contains a variable declaration for student marks.Once the value of marks is input in the parentheses, the giveGrades function will compute a certain output grade for the value on the terminal when (node index.js) is run.This grade output changes as the mark input is changed beyond the ranges given.
@@ -18,5 +36,8 @@ for the last code challenge,we will input any value of basic salary and benefits
 
 
 # Details of Author
- Name: Jacob Muchori Kinyua
- License: "ISC"
+ This challenge was contributed by:
+- [Jacob Muchori Kinyua](https://github.com/JacobMuchori)
+
+# License
+-[ISC]
