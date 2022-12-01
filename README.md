@@ -20,19 +20,24 @@ Open it in ``Visual Studio Code``:
 # Running the application
 To run the application:
 
+- First Install the dependencies
+  npm install
+
 - Run the application
-  node index.js
+  node netSalaryCalculator.js -for netSalaryCalculator.js file
+  node speedDetector.js -for speedDetector.js file
+  node studentGradeGenerator.js - for studentGradeGenerator.js file
 
 
 # Project set up
   # Student Grade Generator(Toy Problem)
-The first part of the code challenge contains a variable declaration for student marks.Once the value of marks is input in the parentheses, the giveGrades function will compute a certain output grade for the value on the terminal when (node index.js) is run.This grade output changes as the mark input is changed beyond the ranges given.
+First, open the studentGradeGenerator.js file. Open the terminal in vscode and type the node command(node studentGradeGenerator.js ) for this file. You will be prompted to input student marks so type the mark you want.After that, press enter and the giveGrades() function in the file, will compute a certain output grade for the value you input in the terminal when (node studentGradeGenerator.js) is run.This grade output changes as the mark input is changed.
  
   # Speed Detector(Toy Problem)
-The second part contains the speed variable which we will input our speed in the parentheses.This input will cause the function printReceipt to output "Ok" for speed below 70.For speeds above 70, a demerit point will be awarded for every increment of five.Above 12 demerit points the output will be "license suspended".All the output will be displayed in the terminal when (node index.js) is run.
+Navigate to the speedDetector.js file. Open the vscode terminal and type the node command (node speedDetector.js ) to run the program. When the command runs, you will be prompted to input speed.Once you have input speed and pressed enter, the function printReceipt() will run and give a certain output in our terminal.It will output "Ok" for speed below 70.For speed above 70, a demerit point will be awarded for every increment of five.Above 12 demerit points, the output will be "license suspended".
 
  # Net Salary Calculator(Toy Problem)
-for the last code challenge,we will input any value of basic salary and benefits we receive in our monthly payments in the parentheses.With the input, the function IndividualNetSalary calculator will calculate the net salary the individual gets per month after deductions.The funtion will also outpu NHIF,NSSF and PAYE deductions done to derive the net salary.All these values will be seen in the terminal when we run node index.js
+Navigate to the netSalaryCalculator.js file.Open the vscode terminal and type the node command(node netSalaryCalculator.js)to run this program.Once it runs,you will be prompted to input any value of basic salary and benefits for a salary.With the input, the function IndividualNetSalaryCalculator() will calculate the net salary the individual gets per month after deductions and output it.The funtion will also output NHIF,NSSF and PAYE deductions done to derive the net salary in the terminal.
 
 
 # Details of Author

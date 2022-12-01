@@ -2,10 +2,9 @@
   "name": "week-1-code-challenge",
   "version": "1.0.0",
   "description": "code-challenge-wk-1",
-  "main": "index.js",
+  "main": "netSalaryCalculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JacobMuchori/week-1-code-challenge/issues"
   },
-  "homepage": "https://github.com/JacobMuchori/week-1-code-challenge#readme"
+  "homepage": "https://github.com/JacobMuchori/week-1-code-challenge#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
