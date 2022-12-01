@@ -24,9 +24,9 @@ To run the application:
   npm install
 
 - Run the application:
-  node netSalaryCalculator.js -for netSalaryCalculator.js file,
-  node speedDetector.js -for speedDetector.js file,
-  node studentGradeGenerator.js - for studentGradeGenerator.js file,
+  -node netSalaryCalculator.js -for netSalaryCalculator.js file,
+  -node speedDetector.js -for speedDetector.js file,
+  -node studentGradeGenerator.js - for studentGradeGenerator.js file,
 
 
 # Project set up
