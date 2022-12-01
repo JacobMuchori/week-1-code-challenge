@@ -3,7 +3,9 @@
 # Description
 This code challenge contains:
 1.A function that outputs correct grades when student marks are input.
+
 2.A function that prints a certain message depending on the input speed of a car.
+
 3.A function that calculates an individuals net salary once the basic salary and benefits are input then added to get the gross salary, then the deductions are calculated and subtracted from the gross salary to get the net salary.It also displays the value of PAYE, NHIF and NSSF deductions.
 
 # Installation
@@ -27,7 +29,7 @@ To run the application:
   -node netSalaryCalculator.js -for netSalaryCalculator.js file,
 
   -node speedDetector.js -for speedDetector.js file,
-  
+
   -node studentGradeGenerator.js - for studentGradeGenerator.js file,
 
 
