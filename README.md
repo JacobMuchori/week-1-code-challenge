@@ -20,18 +20,18 @@ Open it in ``Visual Studio Code``:
 # Running the application
 To run the application:
 
-- First Install the dependencies
+- First Install the dependencies:
   npm install
 
-- Run the application
-  node netSalaryCalculator.js -for netSalaryCalculator.js file
-  node speedDetector.js -for speedDetector.js file
-  node studentGradeGenerator.js - for studentGradeGenerator.js file
+- Run the application:
+  node netSalaryCalculator.js -for netSalaryCalculator.js file,
+  node speedDetector.js -for speedDetector.js file,
+  node studentGradeGenerator.js - for studentGradeGenerator.js file,
 
 
 # Project set up
   # Student Grade Generator(Toy Problem)
-First, open the studentGradeGenerator.js file. Open the terminal in vscode and type the node command(node studentGradeGenerator.js ) for this file. You will be prompted to input student marks so type the mark you want.After that, press enter and the giveGrades() function in the file, will compute a certain output grade for the value you input in the terminal when (node studentGradeGenerator.js) is run.This grade output changes as the mark input is changed.
+First, open the studentGradeGenerator.js file. Open the terminal in vscode and type the node command(node studentGradeGenerator.js ) to run the program. You will be prompted to input student marks so type the mark you want.After that, press enter and the giveGrades() function in the file, will compute a certain output grade for the value you input in the terminal when (node studentGradeGenerator.js) is run.This grade output changes as the mark input is changed.
  
   # Speed Detector(Toy Problem)
 Navigate to the speedDetector.js file. Open the vscode terminal and type the node command (node speedDetector.js ) to run the program. When the command runs, you will be prompted to input speed.Once you have input speed and pressed enter, the function printReceipt() will run and give a certain output in our terminal.It will output "Ok" for speed below 70.For speed above 70, a demerit point will be awarded for every increment of five.Above 12 demerit points, the output will be "license suspended".
