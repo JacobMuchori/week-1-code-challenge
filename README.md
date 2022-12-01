@@ -2,6 +2,7 @@
 
 # Description
 This code challenge contains:
+
 1.A function that outputs correct grades when student marks are input.
 
 2.A function that prints a certain message depending on the input speed of a car.
@@ -26,6 +27,7 @@ To run the application:
   npm install
 
 - Run the application:
+
   -node netSalaryCalculator.js -for netSalaryCalculator.js file,
 
   -node speedDetector.js -for speedDetector.js file,
